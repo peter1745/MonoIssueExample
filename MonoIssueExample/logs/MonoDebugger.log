@@ -1,0 +1,500 @@
+Listening on 127.0.0.1:2550 (timeout=0 ms)...
+Accepted connection from client, connection fd=508.
+Accepted connection from client, socket fd=508.
+VM start event not sent yet: dropping APPDOMAIN_CREATE
+[00000000000074F8] Thread started, obj=000001FCAEEA0130, tls=000001FCAB50CFB0.
+VM start event not sent yet: dropping THREAD_START
+[00000000000074F8] Suspended.
+[00000000000074F8] Resumed.
+VM start event not sent yet: dropping ASSEMBLY_LOAD
+VM start event not sent yet: dropping TYPE_LOAD
+VM start event not sent yet: dropping TYPE_LOAD
+VM start event not sent yet: dropping TYPE_LOAD
+VM start event not sent yet: dropping TYPE_LOAD
+VM start event not sent yet: dropping TYPE_LOAD
+VM start event not sent yet: dropping TYPE_LOAD
+VM start event not sent yet: dropping TYPE_LOAD
+VM start event not sent yet: dropping TYPE_LOAD
+[000000000000828C] Thread started, obj=000001FCAEEA0278, tls=000001FCAEF02720.
+VM start event not sent yet: dropping THREAD_START
+[000000000000828C] Suspended.
+[000000000000828C] Resumed.
+[dbg] Agent thread started, pid=0000000000007BEC
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[dbg] Command VM(VERSION) [1][at=12d1].
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Sent 1 events VM_START(1), suspend=2.
+[00000000000074F8] Suspended.
+[dbg] Command VM(SET_PROTOCOL_VERSION) [2][at=12d3].
+[dbg] Protocol version 2.58, client protocol version 2.56.
+[dbg] Command APPDOMAIN(GET_ROOT_DOMAIN) [3][at=12d5].
+[dbg] Command EVENT_REQUEST(REQUEST_SET) [4][at=12de].
+[dbg] Command EVENT_REQUEST(REQUEST_SET) [5][at=12de].
+[dbg] Command EVENT_REQUEST(REQUEST_SET) [6][at=12de].
+[dbg] Command EVENT_REQUEST(REQUEST_SET) [7][at=12de].
+[dbg] Command EVENT_REQUEST(REQUEST_SET) [8][at=12de].
+[dbg] Command EVENT_REQUEST(REQUEST_SET) [9][at=12de].
+[dbg] Command EVENT_REQUEST(REQUEST_SET) [10][at=12e0].
+[dbg] 	EXCEPTION_ONLY 2 filter (all, uncaught, include-subclasses).
+[dbg] Command EVENT_REQUEST(REQUEST_SET) [11][at=12e0].
+[dbg] Command OBJECT_REF(GET_INFO) [12][at=12e7].
+[dbg]   send class [System.Threading.Thread]
+[dbg] Command TYPE(GET_INFO) [13][at=12e9].
+[dbg]   recv class [System.Threading.Thread]
+[dbg]   send assembly [mscorlib][HazelJITRuntime][1]
+[dbg]   send class [System.Runtime.ConstrainedExecution.CriticalFinalizerObject]
+[dbg] Command APPDOMAIN(GET_CORLIB) [14][at=12ec].
+[dbg]   send assembly [mscorlib][HazelJITRuntime][1]
+[dbg] Command THREAD(GET_ID) [15][at=12ed].
+[dbg] Command THREAD(GET_NAME) [16][at=12ed].
+[dbg] Command THREAD(GET_INFO) [17][at=12ee].
+[dbg] Command ASSEMBLY(GET_TYPE) [18][at=13ab].
+[dbg]   send class [System.Exception]
+[dbg] Command TYPE(GET_INFO) [19][at=13b0].
+[dbg]   recv class [System.Exception]
+[dbg]   send assembly [mscorlib][HazelJITRuntime][1]
+[dbg]   send class [object]
+[dbg]   send class [System.Exception/__RestrictedErrorObject]
+[dbg]   send class [System.Exception/ExceptionMessageKind]
+[dbg] Command ASSEMBLY(GET_DOMAIN) [20][at=13b1].
+[dbg] Command TYPE(GET_SOURCE_FILES) [21][at=13b3].
+[dbg]   recv class [System.Exception]
+[dbg] Command VM(RESUME) [22][at=13b6].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.
+[dbg]   send assembly [TestAssembly][MyAppDomain][2]
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Sent 1 events ASSEMBLY_LOAD(2), suspend=2.
+[00000000000074F8] Suspended.
+[dbg] Command ASSEMBLY(GET_LOCATION) [23][at=4297].
+[dbg] Command ASSEMBLY(GET_DOMAIN) [24][at=429c].
+[dbg] Command ASSEMBLY(GET_NAME) [25][at=429c].
+[dbg] Command VM(RESUME) [26][at=429d].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Sent 1 events EXCEPTION(3), suspend=2.
+[00000000000074F8] Suspended.
+[dbg] Command OBJECT_REF(GET_INFO) [27][at=46c1].
+[dbg]   send class [System.NullReferenceException]
+[dbg] Command TYPE(GET_INFO) [28][at=46c1].
+[dbg]   recv class [System.NullReferenceException]
+[dbg]   send assembly [mscorlib][MyAppDomain][3]
+[dbg]   send class [System.SystemException]
+[dbg] Command APPDOMAIN(GET_CORLIB) [29][at=46c2].
+[dbg]   send assembly [mscorlib][MyAppDomain][3]
+[dbg] Command OBJECT_REF(GET_INFO) [30][at=46c2].
+[dbg]   send class [System.Threading.Thread]
+[dbg] Command TYPE(GET_INFO) [31][at=46c2].
+[dbg]   recv class [System.Threading.Thread]
+[dbg]   send assembly [mscorlib][MyAppDomain][3]
+[dbg]   send class [System.Runtime.ConstrainedExecution.CriticalFinalizerObject]
+[dbg] Command THREAD(GET_ID) [32][at=46c2].
+[dbg] Command THREAD(GET_FRAME_INFO) [33][at=46c5].
+Frames for 000001FCAEEA0130(tid=74f8):
+	Frame: MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single):[il=0xc, native=0xd2] 1
+[dbg]   send method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command METHOD(GET_DECLARING_TYPE) [34][at=46cc].
+[dbg]   recv method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg]   send class [MyAssembly.AnotherClass]
+[dbg] Command METHOD(GET_DEBUG_INFO) [35][at=46ce].
+[dbg]   recv method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command METHOD(GET_INFO) [36][at=46cf].
+[dbg]   recv method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command METHOD(GET_NAME) [37][at=46cf].
+[dbg]   recv method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command TYPE(GET_INFO) [38][at=46cf].
+[dbg]   recv class [MyAssembly.AnotherClass]
+[dbg]   send assembly [TestAssembly][MyAppDomain][2]
+[dbg]   send class [object]
+[dbg] Command MODULE(GET_INFO) [39][at=46d2].
+[dbg]   send assembly [TestAssembly][MyAppDomain][2]
+[dbg] Command STACK_FRAME(GET_DOMAIN) [40][at=46d4].
+[dbg] Command ASSEMBLY(GET_MANIFEST_MODULE) [41][at=46d8].
+[dbg] Command APPDOMAIN(GET_ASSEMBLIES) [42][at=46dc].
+[dbg]   send assembly [mscorlib][MyAppDomain][3]
+[dbg]   send assembly [TestAssembly][MyAppDomain][2]
+[dbg] Command ASSEMBLY(GET_TYPE) [43][at=46dc].
+[dbg]   send class [System.Diagnostics.DebuggerHiddenAttribute]
+[dbg] Command METHOD(GET_CATTRS ) [44][at=46e2].
+[dbg]   recv method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command ASSEMBLY(GET_TYPE) [45][at=46e4].
+[dbg]   send class [System.Diagnostics.DebuggerNonUserCodeAttribute]
+[dbg] Command METHOD(GET_PARAM_INFO) [46][at=46e6].
+[dbg]   recv method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg]   send class [void]
+[dbg]   send class [single]
+[dbg] Command TYPE(GET_INFO) [47][at=46e6].
+[dbg]   recv class [void]
+[dbg]   send assembly [mscorlib][MyAppDomain][3]
+[dbg]   send class [System.ValueType]
+[dbg] Command TYPE(GET_INFO) [48][at=46e7].
+[dbg]   recv class [single]
+[dbg]   send assembly [mscorlib][MyAppDomain][3]
+[dbg]   send class [System.ValueType]
+[dbg] Command VM(ALL_THREADS) [49][at=46e8].
+[dbg] Command METHOD(GET_LOCALS_INFO) [50][at=46f1].
+[dbg]   recv method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command TYPE(GET_CATTRS) [51][at=4707].
+[dbg]   recv class [System.NullReferenceException]
+[dbg] Command TYPE(GET_INFO) [52][at=4708].
+[dbg]   recv class [System.SystemException]
+[dbg]   send assembly [mscorlib][MyAppDomain][3]
+[dbg]   send class [System.Exception]
+[dbg] Command TYPE(GET_CATTRS) [53][at=4708].
+[dbg]   recv class [System.SystemException]
+[dbg] Command TYPE(GET_INFO) [54][at=4708].
+[dbg]   recv class [System.Exception]
+[dbg]   send assembly [mscorlib][MyAppDomain][3]
+[dbg]   send class [object]
+[dbg]   send class [System.Exception/__RestrictedErrorObject]
+[dbg]   send class [System.Exception/ExceptionMessageKind]
+[dbg] Command TYPE(GET_CATTRS) [55][at=4708].
+[dbg]   recv class [System.Exception]
+[dbg]   send method [System.Runtime.InteropServices.ComVisibleAttribute:.ctor (bool)]
+[dbg] Command TYPE(GET_INFO) [56][at=470e].
+[dbg]   recv class [object]
+[dbg]   send assembly [mscorlib][MyAppDomain][3]
+[dbg] Command TYPE(GET_CATTRS) [57][at=470e].
+[dbg]   recv class [object]
+[dbg]   send method [System.Runtime.InteropServices.ClassInterfaceAttribute:.ctor (System.Runtime.InteropServices.ClassInterfaceType)]
+[dbg]   send class [System.Runtime.InteropServices.ClassInterfaceType]
+[dbg]   send method [System.Runtime.InteropServices.ComVisibleAttribute:.ctor (bool)]
+[dbg] Command METHOD(GET_DECLARING_TYPE) [58][at=470f].
+[dbg]   recv method [System.Runtime.InteropServices.ComVisibleAttribute:.ctor (bool)]
+[dbg]   send class [System.Runtime.InteropServices.ComVisibleAttribute]
+[dbg] Command TYPE(GET_INFO) [59][at=470f].
+[dbg]   recv class [System.Runtime.InteropServices.ComVisibleAttribute]
+[dbg]   send assembly [mscorlib][MyAppDomain][3]
+[dbg]   send class [System.Attribute]
+[dbg] Command METHOD(GET_DECLARING_TYPE) [60][at=470f].
+[dbg]   recv method [System.Runtime.InteropServices.ClassInterfaceAttribute:.ctor (System.Runtime.InteropServices.ClassInterfaceType)]
+[dbg]   send class [System.Runtime.InteropServices.ClassInterfaceAttribute]
+[dbg] Command TYPE(GET_INFO) [61][at=470f].
+[dbg]   recv class [System.Runtime.InteropServices.ClassInterfaceAttribute]
+[dbg]   send assembly [mscorlib][MyAppDomain][3]
+[dbg]   send class [System.Attribute]
+[dbg] Command TYPE(GET_FIELDS) [62][at=4710].
+[dbg]   recv class [System.NullReferenceException]
+[dbg] Command TYPE(GET_PROPERTIES ) [63][at=4711].
+[dbg]   recv class [System.NullReferenceException]
+[dbg] Command TYPE(GET_FIELDS) [64][at=471c].
+[dbg]   recv class [System.SystemException]
+[dbg] Command TYPE(GET_PROPERTIES ) [65][at=471d].
+[dbg]   recv class [System.SystemException]
+[dbg] Command TYPE(GET_FIELDS) [66][at=471d].
+[dbg]   recv class [System.Exception]
+[dbg]   send class [object]
+[dbg]   send class [string]
+[dbg]   send class [string]
+[dbg]   send class [System.Collections.IDictionary]
+[dbg]   send class [System.Exception]
+[dbg]   send class [string]
+[dbg]   send class [object]
+[dbg]   send class [string]
+[dbg]   send class [string]
+[dbg]   send class [int]
+[dbg]   send class [object]
+[dbg]   send class [int]
+[dbg]   send class [string]
+[dbg]   send class [System.Runtime.Serialization.SafeSerializationManager]
+[dbg]   send class [System.Diagnostics.StackTrace[]]
+[dbg]   send class [intptr[]]
+[dbg]   send class [int]
+[dbg]   send class [int]
+[dbg] Command TYPE(GET_PROPERTIES ) [67][at=471d].
+[dbg]   recv class [System.Exception]
+[dbg]   send method [System.Exception:get_Message ()]
+[dbg]   send method [System.Exception:get_Data ()]
+[dbg]   send method [System.Exception:get_InnerException ()]
+[dbg]   send method [System.Exception:get_TargetSite ()]
+[dbg]   send method [System.Exception:get_StackTrace ()]
+[dbg]   send method [System.Exception:get_HelpLink ()]
+[dbg]   send method [System.Exception:set_HelpLink (string)]
+[dbg]   send method [System.Exception:get_Source ()]
+[dbg]   send method [System.Exception:set_Source (string)]
+[dbg]   send method [System.Exception:get_RemoteStackTrace ()]
+[dbg]   send method [System.Exception:get_HResult ()]
+[dbg]   send method [System.Exception:set_HResult (int)]
+[dbg]   send method [System.Exception:get_IsTransient ()]
+[dbg] Command METHOD(GET_INFO) [68][at=471e].
+[dbg]   recv method [System.Exception:get_Message ()]
+[dbg] Command METHOD(GET_DECLARING_TYPE) [69][at=4721].
+[dbg]   recv method [System.Exception:get_Message ()]
+[dbg]   send class [System.Exception]
+[dbg] Command METHOD(GET_BODY) [70][at=472d].
+[dbg]   recv method [System.Exception:get_Message ()]
+[dbg] Command THREAD(GET_STATE) [71][at=472e].
+[dbg] Command VM(INVOKE_METHOD) [72][at=4733].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.
+[dbg]   recv method [System.Exception:get_Message ()]
+[00000000000074F8] Invoking method 'System.Exception:get_Message ()' on receiver 'NullReferenceException'.
+[00000000000074F8] Invoke result: 000001FCAEE782B0, exc: (null), time: 1 ms.
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Invoke finished (0), resume_count = 0.
+[00000000000074F8] Suspended.
+[dbg] Command THREAD(GET_FRAME_INFO) [73][at=4736].
+Frames for 000001FCAEEA0130(tid=74f8):
+	Frame: MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single):[il=0xc, native=0xd2] 1
+[dbg]   send method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command OBJECT_REF(GET_INFO) [74][at=4737].
+[dbg]   send class [string]
+[dbg] Command TYPE(GET_INFO) [75][at=4737].
+[dbg]   recv class [string]
+[dbg]   send assembly [mscorlib][MyAppDomain][3]
+[dbg]   send class [object]
+[dbg]   send class [System.String/TrimType]
+[dbg]   send class [System.String/ProbabilisticMap]
+[dbg] Command STRING_REF(GET_VALUE) [76][at=4739].
+[dbg] Command METHOD(GET_INFO) [77][at=4739].
+[dbg]   recv method [System.Exception:get_HelpLink ()]
+[dbg] Command METHOD(GET_DECLARING_TYPE) [78][at=473a].
+[dbg]   recv method [System.Exception:get_HelpLink ()]
+[dbg]   send class [System.Exception]
+[dbg] Command METHOD(GET_BODY) [79][at=473a].
+[dbg]   recv method [System.Exception:get_HelpLink ()]
+[dbg] Command THREAD(GET_STATE) [80][at=473a].
+[dbg] Command VM(INVOKE_METHOD) [81][at=473a].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.
+[dbg]   recv method [System.Exception:get_HelpLink ()]
+[00000000000074F8] Invoking method 'System.Exception:get_HelpLink ()' on receiver 'NullReferenceException'.
+[00000000000074F8] Invoke result: 0000000000000000, exc: (null), time: 0 ms.
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Invoke finished (0), resume_count = 0.
+[00000000000074F8] Suspended.
+[dbg] Command THREAD(GET_FRAME_INFO) [82][at=473a].
+Frames for 000001FCAEEA0130(tid=74f8):
+	Frame: MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single):[il=0xc, native=0xd2] 1
+[dbg]   send method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command METHOD(GET_INFO) [83][at=473b].
+[dbg]   recv method [System.Exception:get_InnerException ()]
+[dbg] Command METHOD(GET_DECLARING_TYPE) [84][at=473b].
+[dbg]   recv method [System.Exception:get_InnerException ()]
+[dbg]   send class [System.Exception]
+[dbg] Command METHOD(GET_BODY) [85][at=473b].
+[dbg]   recv method [System.Exception:get_InnerException ()]
+[dbg] Command THREAD(GET_STATE) [86][at=473b].
+[dbg] Command VM(INVOKE_METHOD) [87][at=473b].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.
+[dbg]   recv method [System.Exception:get_InnerException ()]
+[00000000000074F8] Invoking method 'System.Exception:get_InnerException ()' on receiver 'NullReferenceException'.
+[00000000000074F8] Invoke result: 0000000000000000, exc: (null), time: 0 ms.
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Invoke finished (0), resume_count = 0.
+[00000000000074F8] Suspended.
+[dbg] Command THREAD(GET_FRAME_INFO) [88][at=473b].
+Frames for 000001FCAEEA0130(tid=74f8):
+	Frame: MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single):[il=0xc, native=0xd2] 1
+[dbg]   send method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command TYPE(GET_FIELDS) [89][at=473d].
+[dbg]   recv class [object]
+[dbg] Command TYPE(GET_PROPERTIES ) [90][at=473d].
+[dbg]   recv class [object]
+[dbg] Command METHOD(GET_INFO) [91][at=473d].
+[dbg]   recv method [System.Exception:get_StackTrace ()]
+[dbg] Command METHOD(GET_DECLARING_TYPE) [92][at=473d].
+[dbg]   recv method [System.Exception:get_StackTrace ()]
+[dbg]   send class [System.Exception]
+[dbg] Command METHOD(GET_BODY) [93][at=473e].
+[dbg]   recv method [System.Exception:get_StackTrace ()]
+[dbg] Command THREAD(GET_STATE) [94][at=473e].
+[dbg] Command VM(INVOKE_METHOD) [95][at=473e].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.
+[dbg]   recv method [System.Exception:get_StackTrace ()]
+[00000000000074F8] Invoking method 'System.Exception:get_StackTrace ()' on receiver 'NullReferenceException'.
+[00000000000074F8] Invoke result: 000001FCAD012F90, exc: (null), time: 34 ms.
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Invoke finished (0), resume_count = 0.
+[00000000000074F8] Suspended.
+[dbg] Command THREAD(GET_FRAME_INFO) [96][at=4760].
+Frames for 000001FCAEEA0130(tid=74f8):
+	Frame: MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single):[il=0xc, native=0xd2] 1
+[dbg]   send method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command OBJECT_REF(GET_INFO) [97][at=4760].
+[dbg]   send class [string]
+[dbg] Command STRING_REF(GET_VALUE) [98][at=4760].
+[dbg] Command THREAD(GET_FRAME_INFO) [99][at=4792].
+Frames for 000001FCAEEA0130(tid=74f8):
+	Frame: MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single):[il=0xc, native=0xd2] 1
+[dbg]   send method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command STACK_FRAME(GET_DOMAIN) [100][at=4793].
+[dbg] Command APPDOMAIN(GET_ASSEMBLIES) [101][at=4795].
+[dbg]   send assembly [mscorlib][HazelJITRuntime][1]
+[dbg] Command ASSEMBLY(GET_LOCATION) [102][at=4795].
+[dbg] Command THREAD(GET_STATE) [103][at=48a1].
+[dbg] Command VM(INVOKE_METHOD) [104][at=48a1].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.
+[dbg]   recv method [System.Exception:get_Message ()]
+[00000000000074F8] Invoking method 'System.Exception:get_Message ()' on receiver 'NullReferenceException'.
+[00000000000074F8] Invoke result: 000001FCAEE782B0, exc: (null), time: 0 ms.
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Invoke finished (0), resume_count = 0.
+[00000000000074F8] Suspended.
+[dbg] Command THREAD(GET_FRAME_INFO) [105][at=48a1].
+Frames for 000001FCAEEA0130(tid=74f8):
+	Frame: MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single):[il=0xc, native=0xd2] 1
+[dbg]   send method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command STRING_REF(GET_VALUE) [106][at=48a1].
+[dbg] Command THREAD(GET_STATE) [107][at=48a1].
+[dbg] Command VM(INVOKE_METHOD) [108][at=48a1].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.
+[dbg]   recv method [System.Exception:get_HelpLink ()]
+[00000000000074F8] Invoking method 'System.Exception:get_HelpLink ()' on receiver 'NullReferenceException'.
+[00000000000074F8] Invoke result: 0000000000000000, exc: (null), time: 0 ms.
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Invoke finished (0), resume_count = 0.
+[00000000000074F8] Suspended.
+[dbg] Command THREAD(GET_FRAME_INFO) [109][at=48a2].
+Frames for 000001FCAEEA0130(tid=74f8):
+	Frame: MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single):[il=0xc, native=0xd2] 1
+[dbg]   send method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command THREAD(GET_STATE) [110][at=48a2].
+[dbg] Command VM(INVOKE_METHOD) [111][at=48a2].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.
+[dbg]   recv method [System.Exception:get_InnerException ()]
+[00000000000074F8] Invoking method 'System.Exception:get_InnerException ()' on receiver 'NullReferenceException'.
+[00000000000074F8] Invoke result: 0000000000000000, exc: (null), time: 0 ms.
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Invoke finished (0), resume_count = 0.
+[00000000000074F8] Suspended.
+[dbg] Command THREAD(GET_FRAME_INFO) [112][at=48a2].
+Frames for 000001FCAEEA0130(tid=74f8):
+	Frame: MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single):[il=0xc, native=0xd2] 1
+[dbg]   send method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command THREAD(GET_STATE) [113][at=48a2].
+[dbg] Command VM(INVOKE_METHOD) [114][at=48a2].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.
+[dbg]   recv method [System.Exception:get_StackTrace ()]
+[00000000000074F8] Invoking method 'System.Exception:get_StackTrace ()' on receiver 'NullReferenceException'.
+[00000000000074F8] Invoke result: 000001FCAD013718, exc: (null), time: 0 ms.
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Invoke finished (0), resume_count = 0.
+[00000000000074F8] Suspended.
+[dbg] Command THREAD(GET_FRAME_INFO) [115][at=48a3].
+Frames for 000001FCAEEA0130(tid=74f8):
+	Frame: MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single):[il=0xc, native=0xd2] 1
+[dbg]   send method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command OBJECT_REF(GET_INFO) [116][at=48a3].
+[dbg]   send class [string]
+[dbg] Command STRING_REF(GET_VALUE) [117][at=48a3].
+[dbg] Command TYPE(GET_INTERFACES) [118][at=48b0].
+[dbg]   recv class [System.NullReferenceException]
+[dbg]   send class [System.Runtime.InteropServices._Exception]
+[dbg]   send class [System.Runtime.Serialization.ISerializable]
+[dbg] Command TYPE(GET_INFO) [119][at=48b1].
+[dbg]   recv class [System.Runtime.InteropServices._Exception]
+[dbg]   send assembly [mscorlib][MyAppDomain][3]
+[dbg] Command TYPE(GET_INFO) [120][at=48b1].
+[dbg]   recv class [System.Runtime.Serialization.ISerializable]
+[dbg]   send assembly [mscorlib][MyAppDomain][3]
+[dbg] Command THREAD(GET_STATE) [121][at=48e9].
+[dbg] Command VM(INVOKE_METHOD) [122][at=48e9].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.
+[dbg]   recv method [System.Exception:get_Message ()]
+[00000000000074F8] Invoking method 'System.Exception:get_Message ()' on receiver 'NullReferenceException'.
+[00000000000074F8] Invoke result: 000001FCAEE782B0, exc: (null), time: 0 ms.
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Invoke finished (0), resume_count = 0.
+[00000000000074F8] Suspended.
+[dbg] Command THREAD(GET_FRAME_INFO) [123][at=48e9].
+Frames for 000001FCAEEA0130(tid=74f8):
+	Frame: MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single):[il=0xc, native=0xd2] 1
+[dbg]   send method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command STRING_REF(GET_VALUE) [124][at=48e9].
+[dbg] Command THREAD(GET_STATE) [125][at=48e9].
+[dbg] Command VM(INVOKE_METHOD) [126][at=48e9].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.
+[dbg]   recv method [System.Exception:get_HelpLink ()]
+[00000000000074F8] Invoking method 'System.Exception:get_HelpLink ()' on receiver 'NullReferenceException'.
+[00000000000074F8] Invoke result: 0000000000000000, exc: (null), time: 0 ms.
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Invoke finished (0), resume_count = 0.
+[00000000000074F8] Suspended.
+[dbg] Command THREAD(GET_FRAME_INFO) [127][at=48e9].
+Frames for 000001FCAEEA0130(tid=74f8):
+	Frame: MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single):[il=0xc, native=0xd2] 1
+[dbg]   send method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command THREAD(GET_STATE) [128][at=48ea].
+[dbg] Command VM(INVOKE_METHOD) [129][at=48ea].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.
+[dbg]   recv method [System.Exception:get_InnerException ()]
+[00000000000074F8] Invoking method 'System.Exception:get_InnerException ()' on receiver 'NullReferenceException'.
+[00000000000074F8] Invoke result: 0000000000000000, exc: (null), time: 0 ms.
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Invoke finished (0), resume_count = 0.
+[00000000000074F8] Suspended.
+[dbg] Command THREAD(GET_FRAME_INFO) [130][at=48ea].
+Frames for 000001FCAEEA0130(tid=74f8):
+	Frame: MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single):[il=0xc, native=0xd2] 1
+[dbg]   send method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command THREAD(GET_STATE) [131][at=48ea].
+[dbg] Command VM(INVOKE_METHOD) [132][at=48ea].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.
+[dbg]   recv method [System.Exception:get_StackTrace ()]
+[00000000000074F8] Invoking method 'System.Exception:get_StackTrace ()' on receiver 'NullReferenceException'.
+[00000000000074F8] Invoke result: 000001FCAD013E30, exc: (null), time: 0 ms.
+[00000000000074F8] Suspending vm...
+[00000000000074F8] Interrupting 000000000000828C...
+[000000000000828C] Received interrupt while at 00007FFE57C03F94, treating as suspended.
+[00000000000074F8] Invoke finished (0), resume_count = 0.
+[00000000000074F8] Suspended.
+[dbg] Command THREAD(GET_FRAME_INFO) [133][at=48eb].
+Frames for 000001FCAEEA0130(tid=74f8):
+	Frame: MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single):[il=0xc, native=0xd2] 1
+[dbg]   send method [MyAssembly.AnotherClass:CalledViaRuntimeInvoke (single)]
+[dbg] Command OBJECT_REF(GET_INFO) [134][at=48eb].
+[dbg]   send class [string]
+[dbg] Command STRING_REF(GET_VALUE) [135][at=48eb].
+[dbg] Command STACK_FRAME(GET_DOMAIN) [136][at=5111].
+[dbg] Command STACK_FRAME(GET_THIS) [137][at=511a].
+[dbg] Command OBJECT_REF(GET_INFO) [138][at=511a].
+[dbg]   send class [MyAssembly.AnotherClass]
+[dbg] Command TYPE(GET_FIELDS) [139][at=511a].
+[dbg]   recv class [MyAssembly.AnotherClass]
+[dbg]   send class [MyAssembly.MyClass]
+[dbg] Command TYPE(GET_PROPERTIES ) [140][at=511a].
+[dbg]   recv class [MyAssembly.AnotherClass]
+[dbg] Command ASSEMBLY(GET_TYPE) [141][at=511b].
+[dbg] Command ASSEMBLY(GET_TYPE) [142][at=511b].
+[dbg] Command VM(RESUME) [143][at=5639].
+[0000000000007BEC] Resuming vm, suspend count=0...
+[00000000000074F8] Resumed.

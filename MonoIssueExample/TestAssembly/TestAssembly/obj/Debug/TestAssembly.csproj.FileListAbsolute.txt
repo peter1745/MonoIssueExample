@@ -1,0 +1,7 @@
+C:\dev\MonoIssueExample\MonoIssueExample\TestAssembly\TestAssembly\obj\Debug\TestAssembly.csproj.AssemblyReference.cache
+C:\dev\MonoIssueExample\MonoIssueExample\TestAssembly\TestAssembly\obj\Debug\TestAssembly.csproj.CoreCompileInputs.cache
+C:\dev\MonoIssueExample\MonoIssueExample\TestAssembly\TestAssembly\bin\Debug\TestAssembly.dll.config
+C:\dev\MonoIssueExample\MonoIssueExample\TestAssembly\TestAssembly\bin\Debug\TestAssembly.dll
+C:\dev\MonoIssueExample\MonoIssueExample\TestAssembly\TestAssembly\bin\Debug\TestAssembly.pdb
+C:\dev\MonoIssueExample\MonoIssueExample\TestAssembly\TestAssembly\obj\Debug\TestAssembly.dll
+C:\dev\MonoIssueExample\MonoIssueExample\TestAssembly\TestAssembly\obj\Debug\TestAssembly.pdb
